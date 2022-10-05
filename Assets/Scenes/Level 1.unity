@@ -67069,6 +67069,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1862682375}
     - target: {fileID: 2711259370476109785, guid: 7e206363babf2214381ecd4cde076b9e, type: 3}
+      propertyPath: demage
+      value: 
+      objectReference: {fileID: 1862682375}
+    - target: {fileID: 2711259370476109785, guid: 7e206363babf2214381ecd4cde076b9e, type: 3}
       propertyPath: _scoreText
       value: 
       objectReference: {fileID: 918344815}
