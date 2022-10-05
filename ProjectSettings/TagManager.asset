@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Item
+  - Portal
+  - portal2
+  - PortalHard
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1312439477
+    locked: 0
+  - name: Backgroundtiles
+    uniqueID: 3111735257
+    locked: 0
+  - name: backback
+    uniqueID: 1502333025
+    locked: 0
+  - name: minground
+    uniqueID: 3016173939
+    locked: 0
+  - name: tile
+    uniqueID: 1348969273
+    locked: 0
+  - name: ACS
+    uniqueID: 1968358155
+    locked: 0
+  - name: Player
+    uniqueID: 3792174357
+    locked: 0
+  - name: foregraund
+    uniqueID: 2883558215
+    locked: 0
+  - name: fire
+    uniqueID: 930339583
+    locked: 0
+  - name: acs
+    uniqueID: 3254838435
+    locked: 0
+  - name: Enemy
+    uniqueID: 4248411575
+    locked: 0
+  - name: Item
+    uniqueID: 1070585005
+    locked: 0
+  - name: jamur
+    uniqueID: 2781395149
+    locked: 0
