@@ -14,12 +14,11 @@ public class Player : MonoBehaviour
     private int _score = 0;
     public float currentHealth { get; private set;}
     public GameOver over;
-    [SerializeField] private AudioSource point;
+    [SerializeField] private AudioSource demage;
     [SerializeField] private float staringHealth;
     [SerializeField] private float speed;
     [SerializeField] private float gravity;
     [SerializeField] private TextMeshProUGUI _scoreText;
-
     public void GameOver()
     {
         over.Setup(_score);
@@ -27,6 +26,7 @@ public class Player : MonoBehaviour
     
     void Start()
     {
+        demage.Stop();
         currentHealth = staringHealth;
         body = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
@@ -76,6 +76,7 @@ public class Player : MonoBehaviour
         if (currentHealth > 0)
         {
             _animator.SetTrigger("damage");
+            demage.Play();
         }
         else
         {
@@ -91,7 +92,6 @@ public class Player : MonoBehaviour
             Destroy(other.gameObject);
             _score++;
             _scoreText.text = $": {_score}";
-            point.Play();
         }
 
         if (other.CompareTag("Portal"))
