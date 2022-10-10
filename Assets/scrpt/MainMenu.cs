@@ -2,9 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
+    private int _score = 0;
+    public Defilcult defil;
+    public void Defilcult()
+    {
+        defil.Setup(_score);
+    }
     public void ExitButton()
     {
         Application.Quit();
@@ -13,7 +20,7 @@ public class MainMenu : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("Menu");
+        Defilcult();
     }
 
     public void Us()
