@@ -1352,7 +1352,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3fdc48cf28c04154494d35682a71c1ba, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2b6dd5485a6fdf645a97ef5462045a79, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1480,8 +1480,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteMute:
-  - {fileID: 21300000, guid: 3fdc48cf28c04154494d35682a71c1ba, type: 3}
-  - {fileID: 21300000, guid: 320c0804003a14742b312d4098b2d213, type: 3}
+  - {fileID: 21300000, guid: 2b6dd5485a6fdf645a97ef5462045a79, type: 3}
+  - {fileID: 21300000, guid: 10d248de272621d488886ca2d79be1fe, type: 3}
   buttonMute: {fileID: 768550996}
   defil: {fileID: 0}
 --- !u!4 &954403584
