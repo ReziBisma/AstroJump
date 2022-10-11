@@ -18,6 +18,17 @@ public class GameOverLv2 : MonoBehaviour
      SceneManager.LoadScene("Level2");
      Time.timeScale = 1;
    }
+   public void RestartButtonhard()
+   {
+     SceneManager.LoadScene("Level2Hard");
+     Time.timeScale = 1;
+   }
+
+   public void RestartButtonNoHope()
+   {
+     SceneManager.LoadScene("Level2Nohope");
+     Time.timeScale = 1;
+   }
 
    public void MenuButton()
    {
