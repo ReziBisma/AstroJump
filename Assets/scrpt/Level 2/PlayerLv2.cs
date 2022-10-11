@@ -18,6 +18,8 @@ public class PlayerLv2 : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float gravity;
     [SerializeField] private TextMeshProUGUI _scoreText;
+    [SerializeField] private AudioSource getdiamond;
+    [SerializeField] private AudioSource damage;
 
     public void GameOverLv2()
     {
@@ -26,6 +28,8 @@ public class PlayerLv2 : MonoBehaviour
     
     void Start()
     {
+        getdiamond.Stop();
+        damage.Stop();
         currentHealth2 = staringHealth2;
         body = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
@@ -59,6 +63,7 @@ public class PlayerLv2 : MonoBehaviour
         if (currentHealth2 > 0)
         {
             _animator.SetTrigger("damage");
+            damage.Play();
         }
         else
         {
@@ -74,6 +79,7 @@ public class PlayerLv2 : MonoBehaviour
             Destroy(other.gameObject);
             _score++;
             _scoreText.text = $": {_score}";
+            getdiamond.Play();
         }
 
         if (other.CompareTag("Portal"))

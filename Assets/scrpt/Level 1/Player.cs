@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float gravity;
     [SerializeField] private TextMeshProUGUI _scoreText;
+    [SerializeField] private AudioSource getdiamond;
     public void GameOver()
     {
         over.Setup(_score);
@@ -27,6 +28,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         demage.Stop();
+        getdiamond.Stop();
         currentHealth = staringHealth;
         body = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
@@ -92,6 +94,7 @@ public class Player : MonoBehaviour
             Destroy(other.gameObject);
             _score++;
             _scoreText.text = $": {_score}";
+            getdiamond.Play();
         }
 
         if (other.CompareTag("Portal"))
