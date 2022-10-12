@@ -19,19 +19,19 @@ public class Defilcult : MonoBehaviour
     public void Easy()
    {
      SceneManager.LoadScene("level 1");
-        sound.music.Stop();
+        sound.music.Pause();
    }
 
    public void Hard()
    {
      SceneManager.LoadScene("level1Hard");
-        sound.music.Stop();
+        sound.music.Pause();
     }
 
    public void NoHope()
    {
      SceneManager.LoadScene("level1NoHope");
-        sound.music.Stop();
+        sound.music.Pause();
     }
 
    public void MenuButton()

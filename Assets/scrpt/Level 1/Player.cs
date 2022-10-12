@@ -84,6 +84,7 @@ public class Player : MonoBehaviour
         else
         {
             Time.timeScale = 0;
+            bgm.Stop();
             GameOver();
         }
     }
