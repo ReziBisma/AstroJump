@@ -973,7 +973,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 377524107, guid: 135d2b32a90f6034e9353115487909bd, type: 3}
+  m_Sprite: {fileID: -1274690478, guid: 3648885c3e1c65e48840b0e6eb3ef2f0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1842,6 +1842,7 @@ GameObject:
   - component: {fileID: 1334343885}
   - component: {fileID: 1334343884}
   - component: {fileID: 1334343883}
+  - component: {fileID: 1334343886}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -1889,6 +1890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointsText: {fileID: 2052458520}
+  sound: {fileID: 1618211763}
 --- !u!114 &1334343884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1909,7 +1911,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 233126888, guid: 135d2b32a90f6034e9353115487909bd, type: 3}
+  m_Sprite: {fileID: -1274690478, guid: 3648885c3e1c65e48840b0e6eb3ef2f0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1927,6 +1929,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1334343881}
   m_CullTransparentMesh: 1
+--- !u!95 &1334343886
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334343881}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 65a51f97e32315b478ac186e7afe506e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1409886053
 GameObject:
   m_ObjectHideFlags: 0
