@@ -7,6 +7,8 @@ using UnityEngine.UI;
 public class Defilcult : MonoBehaviour
 {
   public Text pointsText;
+    public SoundManager sound;
+    
 
    public void Setup(int score)
    {
@@ -17,17 +19,20 @@ public class Defilcult : MonoBehaviour
     public void Easy()
    {
      SceneManager.LoadScene("level 1");
+        sound.music.Stop();
    }
 
    public void Hard()
    {
      SceneManager.LoadScene("level1Hard");
-   }
+        sound.music.Stop();
+    }
 
    public void NoHope()
    {
      SceneManager.LoadScene("level1NoHope");
-   }
+        sound.music.Stop();
+    }
 
    public void MenuButton()
    {

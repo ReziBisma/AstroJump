@@ -42,4 +42,9 @@ public class SoundManager : MonoBehaviour
             music.mute = false;
         }
     }
+
+    public void StopMusic()
+    {
+        music.Stop();
+    }
 }
