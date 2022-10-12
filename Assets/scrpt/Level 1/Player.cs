@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float gravity;
     [SerializeField] private TextMeshProUGUI _scoreText;
     [SerializeField] private AudioSource getdiamond;
+    [SerializeField] private AudioSource bgm;
     public void GameOver()
     {
         over.Setup(_score);
@@ -100,6 +101,7 @@ public class Player : MonoBehaviour
         if (other.CompareTag("Portal"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+            bgm.Stop();
         }
         if (other.CompareTag("portal2"))
         {
@@ -108,6 +110,7 @@ public class Player : MonoBehaviour
         if (other.CompareTag("PortalHard"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+            bgm.Stop();
         }
     }
     
