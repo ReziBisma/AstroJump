@@ -20,6 +20,7 @@ public class PlayerLv2 : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _scoreText;
     [SerializeField] private AudioSource getdiamond;
     [SerializeField] private AudioSource damage;
+    [SerializeField] private AudioSource bgm;
 
     public void GameOverLv2()
     {
@@ -69,6 +70,7 @@ public class PlayerLv2 : MonoBehaviour
         {
             Time.timeScale = 0;
             GameOverLv2();
+            bgm.Stop();
         }
     }
 
