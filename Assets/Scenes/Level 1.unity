@@ -66941,6 +66941,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1993308355}
     m_Modifications:
+    - target: {fileID: 4726804364509568392, guid: 6864780a831974a49910d3b2172a84b6, type: 3}
+      propertyPath: m_Text
+      value: 'Bruh, really bro?
+
+        you dead in easy mode?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4726804364509568392, guid: 6864780a831974a49910d3b2172a84b6, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
+    - target: {fileID: 4726804364509568392, guid: 6864780a831974a49910d3b2172a84b6, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4726804364509568399, guid: 6864780a831974a49910d3b2172a84b6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 352.288
+      objectReference: {fileID: 0}
+    - target: {fileID: 4726804364509568399, guid: 6864780a831974a49910d3b2172a84b6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50.1659
+      objectReference: {fileID: 0}
+    - target: {fileID: 4726804364509568399, guid: 6864780a831974a49910d3b2172a84b6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -3.9728
+      objectReference: {fileID: 0}
+    - target: {fileID: 4726804364509568399, guid: 6864780a831974a49910d3b2172a84b6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 25.083
+      objectReference: {fileID: 0}
     - target: {fileID: 4726804364759186920, guid: 6864780a831974a49910d3b2172a84b6, type: 3}
       propertyPath: m_Name
       value: Image
@@ -67064,6 +67094,18 @@ PrefabInstance:
     - target: {fileID: 4726804364865857338, guid: 6864780a831974a49910d3b2172a84b6, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4726804365091546657, guid: 6864780a831974a49910d3b2172a84b6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -11.606
+      objectReference: {fileID: 0}
+    - target: {fileID: 4726804365091546658, guid: 6864780a831974a49910d3b2172a84b6, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
+    - target: {fileID: 4726804365091546658, guid: 6864780a831974a49910d3b2172a84b6, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6864780a831974a49910d3b2172a84b6, type: 3}
