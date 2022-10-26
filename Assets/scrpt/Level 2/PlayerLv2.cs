@@ -92,6 +92,10 @@ public class PlayerLv2 : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex -1);
         }
+        if (other.CompareTag("endportal"))
+        {
+            SceneManager.LoadScene("Credit");
+        }
     }
     
     public void OnMove(InputValue value)
