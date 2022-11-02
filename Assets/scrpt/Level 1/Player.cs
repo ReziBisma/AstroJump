@@ -83,6 +83,7 @@ public class Player : MonoBehaviour
         }
         else
         {
+            _animator.SetTrigger("death");
             Time.timeScale = 0;
             bgm.Stop();
             GameOver();

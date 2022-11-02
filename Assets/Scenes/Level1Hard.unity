@@ -59896,6 +59896,7 @@ GameObject:
   - component: {fileID: 1337354305}
   - component: {fileID: 1337354307}
   - component: {fileID: 1337354306}
+  - component: {fileID: 1337354308}
   m_Layer: 0
   m_Name: Spike_05 (1)
   m_TagString: Untagged
@@ -59986,6 +59987,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1337354308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337354304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44a355421b9a2564fa9ac698374e43d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 3
 --- !u!1001 &1338070774
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61690,6 +61704,7 @@ GameObject:
   - component: {fileID: 1638163047}
   - component: {fileID: 1638163046}
   - component: {fileID: 1638163048}
+  - component: {fileID: 1638163049}
   m_Layer: 0
   m_Name: Spike_05
   m_TagString: Untagged
@@ -61780,6 +61795,19 @@ MonoBehaviour:
   iFramesDuration: 0
   numberOfFlashes: 0
   components: []
+--- !u!114 &1638163049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638163045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44a355421b9a2564fa9ac698374e43d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 3
 --- !u!1001 &1640865855
 PrefabInstance:
   m_ObjectHideFlags: 0

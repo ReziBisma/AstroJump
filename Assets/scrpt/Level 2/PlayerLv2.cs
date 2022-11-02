@@ -68,6 +68,7 @@ public class PlayerLv2 : MonoBehaviour
         }
         else
         {
+             _animator.SetTrigger("death");
             Time.timeScale = 0;
             GameOverLv2();
             bgm.Stop();
