@@ -14,6 +14,7 @@ public class PlayerLv2 : MonoBehaviour
     private int _score = 0;
     public float currentHealth2 { get; private set;}
     public GameOverLv2 over;
+    public GameOverLv2 trans;
     [SerializeField] private float staringHealth2;
     [SerializeField] private float speed;
     [SerializeField] private float gravity;
@@ -25,6 +26,11 @@ public class PlayerLv2 : MonoBehaviour
     public void GameOverLv2()
     {
         over.Setup(_score);
+    }
+
+    public void GameOverLv22()
+    {
+        trans.Setup(_score);
     }
     
     void Start()
@@ -95,7 +101,9 @@ public class PlayerLv2 : MonoBehaviour
         }
         if (other.CompareTag("endportal"))
         {
-            SceneManager.LoadScene("Credit");
+            Time.timeScale = 0;
+            GameOverLv22();
+            bgm.Stop();
         }
     }
     

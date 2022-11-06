@@ -35,4 +35,16 @@ public class GameOverLv2 : MonoBehaviour
      SceneManager.LoadScene("MainMenu");
      Time.timeScale = 1;
    }
+
+   public void CreditButton()
+   {
+     SceneManager.LoadScene("Credit");
+     Time.timeScale = 1;
+   }
+
+   public void NextButton()
+   {
+     SceneManager.LoadScene("Level3");
+     Time.timeScale = 1;
+   }
 }
