@@ -12,31 +12,31 @@ EditorBuildSettings:
     path: Assets/Scenes/AbouthUs.unity
     guid: 1abecb6e21e80994588e12a1b8840fbb
   - enabled: 1
-    path: Assets/Scenes/Level 1.unity
+    path: Assets/Scenes/Level 1/Level 1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Transitionlv.unity
+    path: Assets/Scenes/Transition/Transitionlv.unity
     guid: 492effae77b38ee4ea4a9cbec34053bf
   - enabled: 1
-    path: Assets/Scenes/Level2.unity
+    path: Assets/Scenes/Level 2/Level2.unity
     guid: ed8b37e086b06f142816453c5546f6dc
   - enabled: 1
-    path: Assets/Scenes/Level1Hard.unity
+    path: Assets/Scenes/Level 1/Level1Hard.unity
     guid: 42c39f675435935458f2baf19e7e9af0
   - enabled: 1
-    path: Assets/Scenes/TransitionlvHard.unity
+    path: Assets/Scenes/Transition/TransitionlvHard.unity
     guid: f90d6a7e6a17a0748864bbf48cf20cb0
   - enabled: 1
-    path: Assets/Scenes/Level2Hard.unity
+    path: Assets/Scenes/Level 2/Level2Hard.unity
     guid: 6bb16c020dbeb4647ba2d628e676bd22
   - enabled: 1
-    path: Assets/Scenes/Level1NoHope.unity
+    path: Assets/Scenes/Level 1/Level1NoHope.unity
     guid: ae9ca0970ae7ee54b873bfa935db511b
   - enabled: 1
-    path: Assets/Scenes/TransitionlvNoHope.unity
+    path: Assets/Scenes/Transition/TransitionlvNoHope.unity
     guid: af0da744801bd2749b7b6462df1feace
   - enabled: 1
-    path: Assets/Scenes/Level2Nohope.unity
+    path: Assets/Scenes/Level 2/Level2Nohope.unity
     guid: bda06d2ef9a06a94cb3ae96051122fdb
   - enabled: 1
     path: Assets/Scenes/Level3.unity
