@@ -9,6 +9,7 @@ TagManager:
   - portal2
   - PortalHard
   - endportal
+  - endportal1
   layers:
   - Default
   - TransparentFX

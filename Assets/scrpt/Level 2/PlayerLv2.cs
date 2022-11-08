@@ -105,6 +105,13 @@ public class PlayerLv2 : MonoBehaviour
             GameOverLv22();
             bgm.Stop();
         }
+
+        if (other.CompareTag("endportal1"))
+        {
+            SceneManager.LoadScene("Credit");
+            bgm.Stop();
+        }
+
     }
     
     public void OnMove(InputValue value)
